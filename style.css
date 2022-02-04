@@ -1,0 +1,30 @@
+body {
+background-color: lightblue;
+}
+h1 {
+font-family: 'IM Fell English SC';
+color: brown;
+font-size: 40;
+text-align: center;
+}
+h2 {
+color: chocolate;
+}
+p {
+font-family: 'IM Fell English SC', serif;
+font-size: 24;
+}
+ul {
+    font-size: 24;
+    padding: 20px;
+}
+div {
+    display: inline-block;
+}
+.one-third {
+width: 33%;
+}
+hr {
+    border: 3px solid brown;
+    border-radius: 5px;
+  }
