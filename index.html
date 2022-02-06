@@ -11,19 +11,62 @@
  <style>
             @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
             </style>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
     </head>
+
+    <!--trying to set up a nav bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/coffecup.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Coffee Stories
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Home</a></li>
+              <li><a class="dropdown-item" href="#">Meet the team</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Find us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 <div id="heading">
     <h1>Welcome to Coffee Stories</h1>
     <hr>
         
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, amet possimus? Libero minus repudiandae pariatur dolore, fuga labore possimus maiores veritatis! Vero aliquid iusto saepe natus nulla ipsam. Nemo, a.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, amet possimus? Libero minus repudiandae pariatur dolore, fuga labore possimus maiores veritatis! 
+           <br> Vero aliquid iusto saepe natus nulla ipsam. Nemo, a.
+
+        </p>
 </div>
 
 <body>
     <!-- this is a comment only for me -->
-<div class="container">
+<div class="one-third">
     <h2>Our Menu | Beverages</h2>
 <ul>
     <li>Chai Tea</li>
@@ -31,10 +74,10 @@
     <li>Hot Chocolate</li>
     <li>Cortado</li>
 </ul>
-<img src="images/coffeemenu.jpg" alt="coffee cup filled with coffee and milk foam">
+<img src="images/coffeemenu.jpg" alt="coffee cup filled with coffee and milk foam" width="130" height="150">
 </div>
    
-<div class="container">
+<div class="one-third">
     <h2>Our Menu | Food</h2>
     <ul>
         <li>Sandwiches</li>
@@ -42,10 +85,10 @@
         <li>Salads</li>
         <li>Burger</li>
     </ul>
-    <img src="images/food.jpg" alt="food market stand with fresh vegetables and fruits"> 
+    <img src="images/food.jpg" alt="food market stand with fresh vegetables and fruits" width="180" height="150"> 
 </div>
 
-<div class="container">
+<div class="one-third">
     <h2>Our Menu | Dessert</h2>
     <ul>
         <li>Waffels with Cream</li>
@@ -53,7 +96,7 @@
         <li>Pancake</li>
         <li>Panna Cotta</li>
     </ul>
-    <img src="images/desserts.jpg" alt="lots of different desserts"> 
+    <img src="images/desserts.jpg" alt="lots of different desserts" width="180" height="150">
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

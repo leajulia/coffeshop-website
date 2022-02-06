@@ -1,5 +1,5 @@
 body {
-background-color: lightblue;
+background-color: rgb(209, 224, 235);
 }
 h1 {
 font-family: 'IM Fell English SC';
@@ -11,10 +11,11 @@ h2 {
 color: chocolate;
 }
 p {
-font-family: 'IM Fell English SC', serif;
-font-size: 24;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 60;
 }
 ul {
+    font-family: sans-serif;
     font-size: 24;
     padding: 20px;
 }
